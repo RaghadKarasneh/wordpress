@@ -1,0 +1,32 @@
+.blog-banner .swiper-content{
+	text-align: right;
+}
+
+.blog-banner .entry-meta{
+	display: flex;
+}
+
+.artistic-blog-post-cats a {
+    right: 15px;
+    left: auto;
+}
+
+.artistic-blog-post-content {
+    right: 0;
+    left: auto;
+}
+
+.artistic-blog-post-list .meta2 ul{
+	padding-right: 0;
+}
+
+.artistic-blog-post-list li {
+    padding-right: 0px;
+    padding-left: 10px;
+}
+
+@media (max-width: 991px){
+	.blog-banner .entry-meta {
+	    flex-wrap: wrap;
+	}
+}
